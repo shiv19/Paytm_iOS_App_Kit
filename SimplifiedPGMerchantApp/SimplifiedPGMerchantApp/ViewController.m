@@ -62,7 +62,7 @@
     orderDict[@"CHANNEL_ID"] = @"WAP";
     orderDict[@"TXN_AMOUNT"] = @"1";
     orderDict[@"WEBSITE"] = @"worldpressplg";
-    orderDict[@"CALLBACK_URL"] = @"https://pguat.paytm.com/paytmchecksum/paytmCheckSumVerify.jsp";
+    orderDict[@"CALLBACK_URL"] = @"https://pguat.paytm.com/paytmchecksum/paytmCallback.jsp";
     orderDict[@"CHECKSUMHASH"] = @"o3ARWrsxEfuJwDhkG7/m57ZU+YpHJWNVOTqJb9kfp0fbioRG/lsn1ReNBPUr0UKMMB5Iq4e/JUVSHrbFl9g1VyCyQqcHl/jPOqNvYHVE4Ko=";
     
     PGOrder *order = [PGOrder orderWithParams:orderDict];
