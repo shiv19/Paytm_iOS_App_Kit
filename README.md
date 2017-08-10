@@ -33,5 +33,7 @@ https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_NodeJs
 ## .Net
 https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_DotNet
 
-## Transaction Status API
+
+
+# Transaction Status API
 http://paywithpaytm.com/developer/paytm_api_doc?target=txn-status-api
