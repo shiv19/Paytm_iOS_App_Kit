@@ -1,37 +1,35 @@
 # Paytm iOS Kit
 
-# Note:
-kindly add below dependency in your project
-SystemConfiguration.framework
+Note: kindly add the dependency in your project **`SystemConfiguration.framework`**
 
-# SDK Documentation
+## SDK Documentation
 http://paywithpaytm.com/developer/paytm_sdk_doc/
 
-# SDK work flow
+## SDK work flow
 http://paywithpaytm.com/developer/paytm_sdk_doc?target=how-paytm-sdk-works
 
-# ios Integration Flow
+## ios Integration Flow
 http://paywithpaytm.com/developer/paytm_sdk_doc?target=steps-for-ios-integration
 
 # Checksum Utilities
 
-# PHP
+## PHP
 https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_PHP
 
-# Java
+## Java
 https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_JAVA
 
-# Python
+## Python
 https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_Python
 
-# Ruby
+## Ruby
 https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_Ruby
 
-# NodeJs
+## NodeJs
 https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_NodeJs
 
-# .Net
+## .Net
 https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_DotNet
 
-# Transaction Status API
+## Transaction Status API
 http://paywithpaytm.com/developer/paytm_api_doc?target=txn-status-api
