@@ -1,5 +1,9 @@
 # Paytm iOS Kit
 
+# Note:
+kindly add below dependency in your project
+SystemConfiguration.framework
+
 # SDK Documentation
 http://paywithpaytm.com/developer/paytm_sdk_doc/
 
