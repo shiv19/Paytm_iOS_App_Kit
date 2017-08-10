@@ -8,8 +8,10 @@ http://paywithpaytm.com/developer/paytm_sdk_doc/
 ## SDK work flow
 http://paywithpaytm.com/developer/paytm_sdk_doc?target=how-paytm-sdk-works
 
-## ios Integration Flow
+## IOS Integration Flow
 http://paywithpaytm.com/developer/paytm_sdk_doc?target=steps-for-ios-integration
+
+
 
 # Checksum Utilities
 
