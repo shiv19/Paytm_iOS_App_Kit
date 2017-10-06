@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "paytmPayment"
   s.version      = "0.0.1"
-  s.summary      = "A short description of paytmPayment."
+  s.summary      = "payment solution for your iOS mobile app"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,13 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  ACCEPT PAYMENTS IN 3 SIMPLE STEPS WITH PAYTM WALLET:
+  1. Customer selects Paytm Wallet
+  2. Customer is signed-in
+  3. Customer completes payment
                    DESC
 
-  s.homepage     = "http://EXAMPLE/paytmPayment"
+  s.homepage     = "https://github.com/Paytm-Payments/Paytm_iOS_App_Kit/tree/nikhilAgarwal"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,8 +42,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # s.license      = "MIT (example)"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +83,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/paytmPayment.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Paytm-Payments/Paytm_iOS_App_Kit.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +94,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  # s.source_files  = "Paytm_iOS_App_Kit/Paytm/include/**/*.{h,m}"
+    s.source_files  = "Paytm/**/*.{h,m}"
+
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
