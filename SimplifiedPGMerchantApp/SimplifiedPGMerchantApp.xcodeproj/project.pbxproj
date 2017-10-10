@@ -16,6 +16,7 @@
 		274E70081AF2099000D3C4C3 /* SimplifiedPGMerchantAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 274E70071AF2099000D3C4C3 /* SimplifiedPGMerchantAppTests.m */; };
 		274E701A1AF20B9D00D3C4C3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274E70191AF20B9D00D3C4C3 /* SystemConfiguration.framework */; };
 		750FE6E51E8CD7EB00B439D6 /* libPaymentsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 750FE6E41E8CD7EB00B439D6 /* libPaymentsSDK.a */; };
+		A94348521F8CDF0B00251C07 /* libPaymentsSDK.a in Resources */ = {isa = PBXBuildFile; fileRef = 750FE6E41E8CD7EB00B439D6 /* libPaymentsSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -228,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A94348521F8CDF0B00251C07 /* libPaymentsSDK.a in Resources */,
 				274E6FF71AF2099000D3C4C3 /* Main.storyboard in Resources */,
 				274E6FFC1AF2099000D3C4C3 /* LaunchScreen.xib in Resources */,
 				274E6FF91AF2099000D3C4C3 /* Images.xcassets in Resources */,
