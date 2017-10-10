@@ -95,7 +95,7 @@ Pod::Spec.new do |s|
   #
 
   # s.source_files  = "Paytm_iOS_App_Kit/Paytm/include/**/*.{h,m}"
-    s.source_files  = "Paytm/**/*.{h,m}"
+    s.source_files  = "Paytm/**/*.{h,m,a}"
 
   s.exclude_files = "Classes/Exclude"
 
