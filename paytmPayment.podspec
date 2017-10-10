@@ -122,8 +122,8 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.framework  = "UIKit"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  # s.framework  = "UIKit"
+  s.frameworks = "UIKit", "SystemConfiguration"
   # s.library = "Paytm/libPaymentsSDK"
 
   # s.library   = "iconv"
