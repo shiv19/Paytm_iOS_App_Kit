@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "paytmPayment"
+  s.name         = "Paytm-Payments"
   s.version      = "0.0.1"
   s.summary      = "payment solution for your iOS mobile app"
 
