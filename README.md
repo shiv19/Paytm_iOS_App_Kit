@@ -44,5 +44,5 @@ http://paywithpaytm.com/developer/paytm_api_doc?target=txn-status-api
 3. Add pod 'Paytm-Payments' in the pod file.
 4. Save and run pod install in the terminal
 5. Open xcorkspace
-6. Go to App Target -> Build Phases -> Link Binaries with libraries and add SystemConfiguaration.framework
+6. Go to App Target -> Build Phases -> Link Binaries with libraries and add **SystemConfiguaration.framework**
 7. Go to Pods Target -> Build Phases -> Link Binaries with libraries and add drag libPaymentsSDK.a there From Pods Resources
