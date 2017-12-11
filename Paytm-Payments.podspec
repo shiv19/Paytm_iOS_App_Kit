@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   3. Customer completes payment
                    DESC
 
-  s.homepage     = "https://github.com/shiv19/Paytm_iOS_App_Kit/tree/master"
+  s.homepage     = "https://github.com/Paytm-Payments/Paytm_iOS_App_Kit/tree/nikhilAgarwal"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -68,7 +68,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -83,7 +83,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/shiv19/Paytm_iOS_App_Kit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Paytm-Payments/Paytm_iOS_App_Kit.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -123,9 +123,8 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "UIKit"
-  s.frameworks = 'UIKit', 'SystemConfiguration'
-  # s.ios.library = 'PaymentsSDK'
-  s.vendored_libraries = 'Paytm/libPaymentsSDK.a'
+  s.frameworks = "UIKit", "SystemConfiguration"
+  # s.library = "Paytm/libPaymentsSDK"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
