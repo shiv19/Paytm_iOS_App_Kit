@@ -124,7 +124,7 @@ Pod::Spec.new do |s|
 
   # s.framework  = "UIKit"
   s.frameworks = 'UIKit', 'SystemConfiguration'
-  s.ios.library = 'Paytm/PaymentsSDK'
+  s.ios.library = 'PaymentsSDK'
   # s.vendored_libraries = 'Paytm/libPaymentsSDK.a'
 
   # s.library   = "iconv"
